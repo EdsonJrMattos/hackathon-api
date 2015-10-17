@@ -1,7 +1,7 @@
 /**
- * TesteController
+ * InterviewController
  *
- * @description :: Server-side logic for managing testes
+ * @description :: Server-side logic for managing interviews
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
