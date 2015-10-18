@@ -10,8 +10,7 @@ module.exports = {
   attributes: {
     name: 'string',
     email: 'string',
-    cpf: 'string',
-    rg: 'string',
+    cnpj: 'string',
     phone: 'string',
     city: 'string',
     neighborhood: 'string',
