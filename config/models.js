@@ -10,7 +10,13 @@
  */
 
 module.exports.models = {
-
+  associations: {
+    list: "link",
+    detail: "record"
+  },
+  validations: {
+    ignoreProperties: ['includeIn']
+  },
   /***************************************************************************
   *                                                                          *
   * Your app's default connection. i.e. the name of one of your app's        *
