@@ -8,9 +8,8 @@
 module.exports = {
 
   attributes: {
-    vacancys: {
-      collection: 'vacancy',
-      via: 'interviews'
+    vacancy: {
+      model: 'vacancy',
     },
     candidates: {
       model: 'candidate'
