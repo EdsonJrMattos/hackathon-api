@@ -20,7 +20,7 @@ module.exports = {
     },
     interviews: {
       collection: 'interview',
-      via: 'vacancys'
+      via: 'vacancy'
     }
   }
 };
