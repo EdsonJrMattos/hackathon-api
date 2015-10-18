@@ -8,6 +8,13 @@
 module.exports = {
 
   attributes: {
+    name: 'string',
+    email: 'string',
+    cpf: 'string',
+    rg: 'string',
+    phone: 'string',
+    city: 'string',
+    neighborhood: 'string',
     vacancys: {
       collection: 'vacancy',
       via: 'employer'
@@ -18,4 +25,3 @@ module.exports = {
     }
   }
 };
-
